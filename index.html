@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body style="background-image: url('https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462436_1280.jpg'); background-size: cover; background-position: center; background-attachment: fixed; color: white; text-align: center; padding: 90px;">
+        <!-- Contenido de tu página -->
+    <header>
+        <h1>Un espacio para que seas tú</h1>
+    </header>
+    
+    <section class="registro">
+        <h2>Regístrate</h2>
+        <form id="registroForm">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="tel" id="telefono" placeholder="Teléfono" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <section class="tienda">
+        <h2>Nuestros Productos</h2>
+        <div class="productos" id="productos">
+            <!-- Aquí se agregarán los productos dinámicamente -->
+        </div>
+    </section>
+    
+    <script src="server.js"></script>
+</body>
+</html>
